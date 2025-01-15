@@ -9,3 +9,5 @@
 
 ![1734727900874](https://github.com/user-attachments/assets/9eedd0cd-c99f-4eaf-bb58-c60ee6c73bd7)
 
+## References
+<strong> QT Documentation </strong> https://doc.qt.io/qt.html#qtforpython
