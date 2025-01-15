@@ -50,14 +50,14 @@ class DynatraceApp(QMainWindow):
 
         self.start_date_label = QLabel("Data de Início:")
         self.start_date_input = QDateTimeEdit()
-        self.start_date_input.setDisplayFormat("dd-MM-yyyy HH:mm"")
+        self.start_date_input.setDisplayFormat("dd-MM-yyyy HH:mm")
         self.start_date_input.setDateTime(
             datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
         )
 
         self.end_date_label = QLabel("Data de Término:")
         self.end_date_input = QDateTimeEdit()
-        self.end_date_input.setDisplayFormat("dd-MM-yyyy HH:mm"")
+        self.end_date_input.setDisplayFormat("dd-MM-yyyy HH:mm")
         self.end_date_input.setDateTime(datetime.now())
 
         date_layout.addWidget(self.start_date_label)
