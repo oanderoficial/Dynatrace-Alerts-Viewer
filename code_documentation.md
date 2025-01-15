@@ -231,3 +231,18 @@ class DynatraceApp(QMainWindow):
         df.to_excel(filename, index=False)
         QMessageBox.information(self, "Sucesso", f"Dados salvos em {filename}")
 ```
+
+# Executar a aplicação
+
+```python
+if __name__ == "__main__":
+    # Suprimir avisos de SSL inseguros
+    requests.packages.urllib3.disable_warnings(
+        requests.packages.urllib3.exceptions.InsecureRequestWarning
+    )
+
+    app = QApplication(sys.argv)
+    window = DynatraceApp()
+    window.show()
+    sys.exit(app.exec_())
+```
