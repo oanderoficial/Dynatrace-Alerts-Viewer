@@ -1,7 +1,6 @@
 # Dynatrace-Alerts-Viewer
 
 ![Python Version](https://img.shields.io/badge/python-3.13|3.12-blue)
-[![License MIT](https://img.shields.io/github/license/oanderoficial/Dynatrace-Alerts-Viewer)](https://opensource.org/licenses/MIT)
 [![Dependency](https://img.shields.io/badge/library-PyQt5-orange)](https://pypi.org/project/PyQt5/)
 [![Extension](https://img.shields.io/badge/extension-Dynatrace-green)](https://www.dynatrace.com/pt-br)
 
