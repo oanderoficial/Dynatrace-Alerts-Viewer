@@ -29,8 +29,10 @@ from PyQt5.QtCore import Qt
 ## Parâmetros de acesso Dynatrace 
 
 ```python
-DYNATRACE_BASE_URL = "https://dynatrace.seu.ambiente.net/e/Ae54fe67-5567-46yu-86f4-56b25d5hji78/api/v2/problems"
-API_TOKEN = " "  # Insira seu token de API
+# Parâmetros Dynatrace
+DYNATRACE_BASE_URL = "https://dynatrace.acesso.net/e/6hty5y-45d8-5698-86f4-658gjje8f8D/api/v2/problems"
+API_TOKEN = "SEU_TOKEN_DE_ACESSO"  # Insira seu token de API
+
 ```
 
 ## DynatraceApp
